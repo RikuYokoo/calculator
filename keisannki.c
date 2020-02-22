@@ -16,7 +16,7 @@ int main(){
   while(1){
     while(1){
     scanf("%c", &sw);
-    if(sw == '\n')
+   while(sw == '\n') //if(sw == '\n')
       scanf("%c", &sw);
     if(sw == 'f'){
       printf("関数モードです\n");
@@ -54,9 +54,9 @@ int main(){
     printf("%lf", x);
       while(1){
         scanf("%c", &sw);
-        if(sw == '\n'){
+       while(sw == '\n') //if(sw == '\n'){
           scanf("%c", &sw);
-    }
+    
         if(sw == 'a'){
           printf("四則演算\n");
           break;
